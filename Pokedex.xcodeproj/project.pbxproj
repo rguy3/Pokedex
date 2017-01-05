@@ -12,6 +12,7 @@
 		30178BCE1E1DE2D5008D2D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30178BCC1E1DE2D5008D2D21 /* Main.storyboard */; };
 		30178BD01E1DE2D5008D2D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30178BCF1E1DE2D5008D2D21 /* Assets.xcassets */; };
 		30178BD31E1DE2D5008D2D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30178BD11E1DE2D5008D2D21 /* LaunchScreen.storyboard */; };
+		30DA39DE1E1DE8B7002E5A86 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 30DA39DD1E1DE8B7002E5A86 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		30178BCF1E1DE2D5008D2D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30178BD21E1DE2D5008D2D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30178BD41E1DE2D5008D2D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30DA39DD1E1DE8B7002E5A86 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		30178BC71E1DE2D5008D2D21 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				30DA39DD1E1DE8B7002E5A86 /* pokemon.csv */,
 				30178BC81E1DE2D5008D2D21 /* AppDelegate.swift */,
 				30178BCA1E1DE2D5008D2D21 /* ViewController.swift */,
 				30178BCC1E1DE2D5008D2D21 /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			files = (
 				30178BD31E1DE2D5008D2D21 /* LaunchScreen.storyboard in Resources */,
 				30178BD01E1DE2D5008D2D21 /* Assets.xcassets in Resources */,
+				30DA39DE1E1DE8B7002E5A86 /* pokemon.csv in Resources */,
 				30178BCE1E1DE2D5008D2D21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				30178BD91E1DE2D5008D2D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
