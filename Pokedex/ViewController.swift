@@ -27,7 +27,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         searchBar.delegate = self
         searchBar.returnKeyType = UIReturnKeyType.done
         parsePokemonCSV()
-        initAudio()
+        //initAudio()
     }
     
     func initAudio() {
@@ -40,7 +40,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             musicPlayer.numberOfLoops = -1 //Play it over and over
             musicPlayer.play() //Start play
         } catch let err as Error { //If an error occurs, throw an error)
-            print(err.localizedDescription)
+            //print(err.localizedDescription)
         }
         }
     
@@ -58,10 +58,8 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 pokemon.append(poke)
             }
             
-            
-            print(rows)
         } catch let err as NSError {
-            print(err.debugDescription)
+           // print(err.debugDescription)
         }
     }
     
